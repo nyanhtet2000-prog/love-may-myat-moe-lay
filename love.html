@@ -3,55 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Love You May Myat Moe Lay</title>
-  <link rel="stylesheet" href="css/love.css">
+
+  <!-- CSS is in the root folder -->
+  <link rel="stylesheet" href="love.css">
 </head>
+
 <body>
+
+  <!-- Falling hearts -->
   <div id="heartContainer"></div>
+
+  <!-- Sparkle background -->
   <div class="sparkles"></div>
 
+
+  <!-- Main page -->
   <main class="love-page">
+
+    <!-- Cute bear -->
     <div class="cute-character" aria-hidden="true">
+
       <div class="ear left"></div>
       <div class="ear right"></div>
+
       <div class="bear-head">
+
         <div class="eye left-eye"></div>
         <div class="eye right-eye"></div>
+
         <div class="blush left-blush"></div>
         <div class="blush right-blush"></div>
+
         <div class="nose"></div>
         <div class="mouth"></div>
+
       </div>
+
       <div class="heart-held">♥</div>
+
     </div>
 
-    <p class="small-line">A little message just for you...</p>
-    <h1>
-      <span>Love u</span>
-      <strong>May Myat Moe Lay</strong>
-      <span>♥</span>
-    </h1>
 
-    <p class="message">
-      You make ordinary days feel a little more special.
-      <br>
-      So here's a tiny world full of pink hearts, just for you.
+    <p class="small-line">
+      A little message just for you...
     </p>
 
-    <button id="moreLoveBtn">Send More Love 💗</button>
-    <button id="logoutBtn" class="logout">Back</button>
+
+    <h1>
+
+      <span>Love u</span>
+
+      <strong>May Myat Moe Lay</strong>
+
+      <span>♥</span>
+
+    </h1>
+
+
+    <p class="message">
+
+      You make ordinary days feel a little more special.
+
+      <br>
+
+      So here's a tiny world full of pink hearts, just for you.
+
+    </p>
+
+
+    <div class="buttons">
+
+      <button id="moreLoveBtn">
+        Send More Love 💗
+      </button>
+
+      <button id="logoutBtn" class="logout">
+        Back
+      </button>
+
+    </div>
+
   </main>
 
+
+  <!-- Love modal -->
   <div id="loveModal" class="modal hidden">
+
     <div class="modal-box">
-      <div class="big-heart">♥</div>
-      <h2>Love u, May Myat Moe Lay 💕</h2>
-      <p>No matter how many hearts fall...</p>
-      <p>there's always one more for you.</p>
-      <button id="closeModal">Aww 💗</button>
+
+      <div class="big-heart">
+        ♥
+      </div>
+
+      <h2>
+        Love u, May Myat Moe Lay 💕
+      </h2>
+
+      <p>
+        No matter how many hearts fall...
+      </p>
+
+      <p>
+        there's always one more for you.
+      </p>
+
+      <button id="closeModal">
+        Aww 💗
+      </button>
+
     </div>
+
   </div>
 
-  <script src="js/love.js"></script>
+
+  <!-- JavaScript is in the root folder -->
+  <script src="love.js"></script>
+
 </body>
 </html>
