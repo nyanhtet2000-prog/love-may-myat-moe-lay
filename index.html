@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account | Love</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="login-page">
+    <div class="login-card">
+      <div class="logo">G</div>
+      <h1>Create your account</h1>
+      <p class="subtitle">Create an account to continue</p>
+
+      <form id="loginForm">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@gmail.com" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter your password" minlength="4" required>
+        </div>
+
+        <p id="errorMessage" class="error"></p>
+
+        <div class="actions">
+          <a href="#" id="helpLink">Need help?</a>
+          <button type="submit">Create account</button>
+        </div>
+      </form>
+    </div>
+
+    <p class="footer-text">This is a cute demo page made with HTML, CSS & JavaScript.</p>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
